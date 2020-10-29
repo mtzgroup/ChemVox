@@ -1,5 +1,7 @@
 # ChemVox: an Alexa skill to perform real-time quantum chemistry calculations  
 
+[![DOI](https://zenodo.org/badge/306769580.svg)](https://zenodo.org/badge/latestdoi/306769580)
+
 This is the python source code of ChemVox (https://www.amazon.com/dp/B08G1C97J5).
 
 ChemVox is a free, ready to use Alexa skill that interfaces Amazon Web Services (AWS) with the PubChem chemical database and the TeraChem Cloud framework for cloud based quantum chemistry. 
