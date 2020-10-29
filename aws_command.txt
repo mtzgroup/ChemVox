@@ -1,0 +1,5 @@
+Instructions to install AWS CLI : https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html
+
+aws configure
+
+aws lambda update-function-code --function-name tutorial --zip-file fileb://ChemVox_tutorial.zip
