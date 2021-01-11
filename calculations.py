@@ -51,9 +51,10 @@ def get_parameters(cids):
 def launch_calculation(s1, name, cid, phase,epsilon, atoms, geom, charge,receiver_email,user_name,output):
 
     # Authentication
-    USER = "chemvox"
-    API_KEY = "9XLx/zMEEInBFjt8GlSB/UwvIWHWL7qDVM5WdqRiJIg="
-    URL_SERVER = "http://tccloud.ngrok.io"
+    # to get autentication tokens send an email to chemvox.mtz@gmail.com
+    USER = ""
+    API_KEY = ""
+    URL_SERVER = ""
 
     ## Initialize client
     TC = client.Client(url=URL_SERVER, user=USER, api_key=API_KEY,  engine="terachem", verbose=False)
